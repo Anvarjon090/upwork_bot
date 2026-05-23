@@ -19,7 +19,7 @@ async def main():
     dp = Dispatcher()
 
     await init_db()
-    setup_handlers(dp, bot)
+    setup_handlers(dp)
 
     scheduler = AsyncIOScheduler()
     scheduler.add_job(
