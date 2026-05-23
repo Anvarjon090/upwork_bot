@@ -1,7 +1,16 @@
 .env
+.envrc
 __pycache__/
 *.py[cod]
 *.db
 .DS_Store
 venv/
 .venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
